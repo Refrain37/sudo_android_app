@@ -1,0 +1,9 @@
+/* 全局样式 */
+page{
+    background: rgb(238, 238, 238);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}

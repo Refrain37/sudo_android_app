@@ -1,0 +1,216 @@
+{
+    /* pages start */
+	"pages": [ 
+        // tabBar start
+        {
+            "path": "pages/tabBar/articles/articles", // 首页
+            "style": {
+                "navigationBarTitleText": "SUDO"
+            }
+        },
+        {
+            "path": "pages/tabBar/questions/questions",
+            "style": {
+                "navigationBarTitleText": "答题",
+                "app-plus":{
+                    "titleNView":{
+                        "buttons":[
+                            {
+                               "fontSrc":"/static/iconfont.ttf",
+                               "text":"\ue673",
+                               "fontSize":"17"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/tabBar/me/me",
+            "style": {
+                "app-plus":{
+                    "titleNView":false
+                }
+            }
+        },
+        // tabBar end
+        
+		// articles start
+        {
+            "path":"pages/articles/articleDetail/articleDetail",
+            "style":{
+                "navigationBarTitleText":"",
+                "backgroundColor":"#fff",
+                "app-plus":{
+                    "titleNView":{
+                        "buttons":[
+                            {
+                               "type":"favorite",
+                               "color":"#000000"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path":"pages/articles/favoriteArticles/favoriteNews",
+            "style":{
+                "navigationBarTitleText":"文章收藏集"
+            }
+        },
+        // articles end
+        
+        // questions start
+        {
+            "path":"pages/questions/answerRecords/answerRecords",
+            "style":{
+                "navigationBarTitleText":"答题记录",
+                "enablePullDownRefresh":true,
+                "app-plus":{
+                    "pullToRefresh":true
+                }
+            }
+        },
+        {
+            "path":"pages/questions/questionList/questionList",
+            "style":{
+                "navigationBarTitleText":""
+            }
+        },
+        {
+            "path":"pages/questions/questionDetail/questionDetail",
+            "style":{
+                "navigationBarTitleText":"答题"
+            }
+        },
+        // questions end
+        
+        // user start
+        {
+            "path":"pages/user/changeUserInfo/changeUserInfo",
+            "style":{
+                "navigationBarTitleText":"修改个人信息"
+            }
+        },
+        {
+            "path":"pages/user/login/login",
+            "style":{
+                "navigationBarTitleText":"login",
+                "app-plus":{
+                    "titleNView":{
+                        "type":"transparent"
+                    }
+                }
+            }
+        },
+        {
+            "path":"pages/user/register/register",
+            "style":{
+                "navigationBarTitleText":"register",
+                "app-plus":{
+                    "titleNView":{
+                        "type":"transparent"
+                    }
+                }
+            }
+        },
+        // user end
+        
+        // contacts start
+        {
+            "path":"pages/contacts/contacts",
+            "style":{
+                "navigationBarTitleText":"好友列表",
+                "enablePullDownRefresh":true,
+                "app-plus":{
+                    "titleNView":{
+                        "buttons":[
+                            {
+                                "fontSrc":"/static/iconfont.ttf",
+                               "text":"\ue75c",
+                               "fontSize":"20"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path":"pages/contacts/add/add",
+            "style":{
+                "app-plus":{
+                    "titleNView":{
+                        "titleText":"添加好友"
+                    }
+                }
+            }
+        },
+        {
+            "path":"pages/contacts/chat/chat",
+            "style":{
+                "navigationBarTitleText":""
+            }
+        },
+        // contacts end
+        
+        // setting start
+        {
+            "path":"pages/setting/setting",
+            "style":{
+                "navigationBarTitleText":"设置"
+            }
+        },
+        // setting end
+        
+        // about start
+        {
+            "path":"pages/about/about",
+            "style":{
+                "navigationBarTitleText":"关于Sudo"
+            }
+        }
+        // about end
+	],
+    
+    /* pages end */
+    
+    /* global-style start */
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "sudo",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+    /* global-style end */
+    
+     /* tabBars start */
+     "tabBar":{
+     	"color" : "#303030",
+     	"selectedColor" : "#303030",
+     	"borderStyle" : "black",
+     	"backgroundColor" : "#FFFFFF",
+     	"list":[
+     		{
+     			"pagePath":"pages/tabBar/articles/articles",
+     			"text":"Home",
+                 "iconPath":"static/icons/articles.png",
+                 "selectedIconPath":"static/icons/articles_selected.png"
+     		},
+     		{
+     			"pagePath":"pages/tabBar/questions/questions",
+     			"text":"Questions",
+                 "iconPath":"static/icons/qustions.png",
+                 "selectedIconPath":"static/icons/questions_selected.png"
+     			
+     		},
+     		{
+     			"pagePath":"pages/tabBar/me/me",
+     			"text":"Me",
+                 "iconPath":"static/icons/me.png",
+                 "selectedIconPath":"static/icons/me_selected.png"
+     		}
+     	]
+     }
+     /* tabBars end */
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2201220 */
+  src:  url('https://at.alicdn.com/t/font_2201220_59txqysxcre.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jilu:before {
+  content: "\e606";
+}
+
+.icon-tianjiahaoyou:before {
+  content: "\e75c";
+}
+
+.icon-comment:before {
+  content: "\e668";
+}
+
+.icon-time:before {
+  content: "\e680";
+}
+
+.icon-book:before {
+  content: "\e7b3";
+}
+
+.icon-group:before {
+  content: "\e6ff";
+}
+
+.icon-setup:before {
+  content: "\e728";
+}
