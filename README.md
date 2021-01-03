@@ -91,7 +91,7 @@ git clone https://github.com/Refrain37/sudo_android_app.git
 - **本项目仅对安卓端进行了适配，其他平台可能存在bug以及差异**
 
 ## 项目截图
-<div style="display:flex;flex-direction:row;flex-warp:warp;justify-content:space-between;;">
+<div style="display:flex;flex-direction:row;flex-warp:warp;justify-content:space-between;width:100%;">
     <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg" width="270"  />
     <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg" width="270"  />
     <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg" width="270"  />
