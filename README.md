@@ -91,16 +91,11 @@ git clone https://github.com/Refrain37/sudo_android_app.git
 - **本项目仅对安卓端进行了适配，其他平台可能存在bug以及差异**
 
 ## 项目截图
-
-![登录-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg)
-
-![个人中心-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg)
-
-![聊天-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg)
-
-![文章列表-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg)
-
-![答题-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg)
+<img src:"https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg" width="100px" height="300px" />
+<img src:"https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg" width="100px" height="300px" />
+<img src:"https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg" width="100px" height="300px" />
+<img src:"https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg" width="100px" height="300px" />
+<img src:"https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg" width="100px" height="300px" />
 
 ## 总结
 
