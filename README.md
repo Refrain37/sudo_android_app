@@ -90,6 +90,18 @@ git clone https://github.com/Refrain37/sudo_android_app.git
 - 每个模块分别都有具体的功能介绍
 - **本项目仅对安卓端进行了适配，其他平台可能存在bug以及差异**
 
+## 项目截图
+
+![登录](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg)
+
+![个人中心](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg)
+
+![聊天](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg)
+
+![文章列表](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg)
+
+![答题](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg)
+
 ## 总结
 
 本项目为移动编程课的课程设计，因时间、精力有限，如有做的不好的地方请多多包含！
