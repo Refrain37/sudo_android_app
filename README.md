@@ -92,15 +92,15 @@ git clone https://github.com/Refrain37/sudo_android_app.git
 
 ## 项目截图
 
-![登录](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg){:height="400px" width="100px"}
+![登录-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg)
 
-![个人中心](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg){:height="400px" width="100px"}
+![个人中心-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg)
 
-![聊天](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg){:height="400px" width="100px"}
+![聊天-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg)
 
-![文章列表](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg){:height="400px" width="100px"}
+![文章列表-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg)
 
-![答题](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg){:height="400px" width="100px"}
+![答题-w150](https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg)
 
 ## 总结
 
