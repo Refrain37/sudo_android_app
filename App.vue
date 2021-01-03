@@ -16,7 +16,7 @@
 </script>
 
 <style>
-	/*public css */
+	/*public style */
     @import url("./common/css/index.css");
     @import url("./common/css/iconfont.css");
 </style>

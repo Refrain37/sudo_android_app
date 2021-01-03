@@ -24,7 +24,7 @@
             </view>
         </view>
         
-        <view class="trips" v-if="!searchResult && hasSearch">找不到该用户</view>
+        <view class="tip" v-if="!searchResult && hasSearch">找不到该用户</view>
 	</div>
 </template>
 
@@ -161,7 +161,7 @@
         line-height: 2;
     }
     /* 搜索结果 end */
-    .trips{
+    .tip{
         margin-top: 30rpx;
         text-align: center;
         color: rgb(103,103,103);

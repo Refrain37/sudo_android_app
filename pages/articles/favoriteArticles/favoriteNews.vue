@@ -10,6 +10,7 @@
                 <text class="title">{{article.title}}</text>
                 <text>></text>
             </view>
+            <view class="loading" @tap="loadMore">{{loadingText}}</view>
 		</scroll-view>
         <view v-else class="trips">暂无收藏文章...</view>
 	</div>
@@ -31,9 +32,10 @@
 		},
         methods:{
             // get list
-            async getList() {
+            async getList(cbk) {
                 const res = await getFavoriteArtciles(this.page)
                 if(res) {
+                    this.page +=1 // page add
                     this.totalPage = res.data.pageTotal
                     let list = res.data.lists
                     list = list.map(item => {
@@ -42,9 +44,11 @@
                             title:item.article.title
                         }
                     })
-                    
+                    if(cbk) {
+                        cbk(list)
+                        return
+                    }
                     this.favoriteArticles = [...this.favoriteArticles,...list]
-                    this.page +=1 // page add
                 }
             },
             // navigato detail
@@ -75,10 +79,35 @@
                       }
                   }
                 })
+            },
+            // load-more
+            loadMore() {
+                if(this.totalPage > this.page) {
+                    this.getList()
+                }
             }
         },
-        onLoad() {
-            this.getList()
+        computed:{
+            loadingText() {
+                if(this.totalPage > this.page) {
+                    return '加载更多'
+                }else {
+                    return '暂无更多数据'
+                }
+            }
+        },
+        onPullDownRefresh() {
+            this.page = 1
+            this.getList(list => {
+                this.favoriteArticles = list
+            })
+            uni.stopPullDownRefresh()
+        },
+        onShow() {
+            this.page = 1
+            this.getList(list => {
+                this.favoriteArticles = list
+            })
         }
 	}
 </script>
@@ -116,6 +145,14 @@
         color: black;
         max-width: 85%;
     }
+    .loading{
+        padding:20rpx;
+        text-align: center;
+        font-size: 28rpx;
+        color: #999;
+        letter-spacing: 3rpx;
+    }
+    
     .trips {
         margin-top: 100rpx;
         font-size: 40rpx;

@@ -11,7 +11,7 @@
         <!-- 文章列表 start -->
         <swiper :current="tabIndex" class="swiper-box" duration="300" indicator-color="rgba(255,255,255,0)" indicator-active-color="rgba(255,255,255,0)" @change="swiperChange">
           <swiper-item v-for="(tab,index1) in tabBars" :key="index1" >
-            <Refresh type="swappingSquares" :color=color :playState="playState"></Refresh>
+            <Refresh :color=color :playState="playState"></Refresh>
             <view class="article-list-warp" :style="[{
 				transform: coverTransform,
 				transition: coverTransition

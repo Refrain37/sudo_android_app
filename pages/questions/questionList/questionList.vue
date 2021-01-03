@@ -18,35 +18,7 @@
         WEEK:'weekly',
         SPECIAL:'special'
     }
-    
-    const fakeList = [
-        {
-            id:1,
-            title:'学习葫芦娃与爷爷之间的爱恨情仇',
-            time:'2020/11/21'
-        },
-        {
-            id:2,
-            title:'学习葫芦娃与蛇精蝎子精之间的爱恨情仇',
-            time:'2020/11/21'
-        },
-        {
-            id:13,
-            title:'第56届Refrain公益广告大会',
-            time:'2020/11/21'
-        },
-        {
-            id:5,
-            title:'做不得旷世的逸才，只做你天地间的伞',
-            time:'2020/11/21'
-        },
-        {
-            id:7,
-            title:'学习葫芦娃与爷爷之间的爱恨情仇学习葫芦娃与爷爷之间的爱恨情仇',
-            time:'2020/11/21'
-        }
-    ]
-    
+        
 	export default {
 		name:'question-list',
 		data() {

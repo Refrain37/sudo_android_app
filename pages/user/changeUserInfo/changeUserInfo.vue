@@ -17,7 +17,7 @@
             <input class="input" type="text" v-model="introduction" placeholder="请输入自我介绍" />
         </view>
         
-        <button class="submit-btn" type="default" @click="submit()">确认修改</button>
+        <button class="submit-btn" type="default" @click="submit">确认修改</button>
 	</div>
 </template>
 
@@ -106,7 +106,7 @@
         font-size: 30rpx;
     }
     
-    /* start */
+    /* choose img start */
     .image-upload{
         padding: 15rpx 30rpx;
         background-color: #FFFFFF;
@@ -165,6 +165,7 @@
     .close-view{
         text-align: center;line-height:14px;height: 16px;width: 16px;border-radius: 50%;background: #FF5053;color: #FFFFFF;position: absolute;top: -6px;right: -4px;font-size: 12px;
     }
+    /* choose img end */
     
     /* introduction start */
     .userInfo-introduction{

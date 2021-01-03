@@ -72,7 +72,7 @@
                 for(let i = 0; i < options.length;i++) {
                     if(options[i].value === evt.target.value) {
                         this.optionCurrent[this.current] = i // 设置当前题目选中的答案选项
-                        this.selected.splice(this.current,1,evt.target.value) // 保存选择答案的值:解决无法监听数组内容变化
+                        this.selected.splice(this.current,1,evt.target.value) // !保存选择答案的值:解决无法监听数组内容变化
                         break
                     }
                 }

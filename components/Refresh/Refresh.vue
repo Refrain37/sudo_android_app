@@ -1,6 +1,6 @@
 <template>
 	<view class="content" :style="{'--color': color, '--playState': playState}">
-		<view v-if="type === 'swappingSquares'" class="refresh swapping-squares-spinner">
+		<view class="refresh swapping-squares-spinner">
 			<view class="square"></view>
 			<view class="square"></view>
 			<view class="square"></view>
@@ -13,10 +13,6 @@
 	export default {
 		name: 'refresh',
 		props: {
-			type: {
-				type: String,
-				default: 'swappingSquares'
-			},
 			color: {
 				type: String,
 				default: '#04C4C4'
@@ -25,17 +21,6 @@
 				type: String,
 				default: 'paused'
 			}
-		},
-		data() {
-			return {
-				
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
 		}
 	}
 </script>
@@ -57,7 +42,6 @@
 		}
 	}
 	
-	/* swappingSquares */
 	.swapping-squares-spinner {
 	  position: relative;
 	}
