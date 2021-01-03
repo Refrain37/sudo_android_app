@@ -91,11 +91,13 @@ git clone https://github.com/Refrain37/sudo_android_app.git
 - **本项目仅对安卓端进行了适配，其他平台可能存在bug以及差异**
 
 ## 项目截图
-<figure>
-    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg" width="300"  /><img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg" width="300"  />
-</figure>
-<img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg" width="300"  />
-<img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg" width="300"  />
+<center>
+<img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg" width="300"  /><img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg" width="300"  />
+</center>
+<center>
+<img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg" width="300"  /><img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg" width="300"  />
+</center>
+
 <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg" width="300"  />
 
 ## 总结
