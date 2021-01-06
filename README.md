@@ -67,7 +67,7 @@ websocket项目地址：[https://github.com/Swaggerzhan/MyWebsocket](https://git
 
 ## 项目运行
 
-> 本项目运行前需要先对**后端**以及**websocket服务**进行部署，详见：[后端](https://github.com/ebai98/AndroidHomeworkApi)[websocket服务](https://github.com/Swaggerzhan/MyWebsocket)
+> 本项目运行前需要先对**后端**以及**websocket服务**进行部署，详见：[后端](https://github.com/ebai98/AndroidHomeworkApi)、[websocket服务](https://github.com/Swaggerzhan/MyWebsocket)
 
 > 推荐使用**HbuiderX**编辑器进行项目运行
 
