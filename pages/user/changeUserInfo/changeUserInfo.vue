@@ -38,10 +38,11 @@
         methods:{
             // 选择照片
             chooseImg() {
-                let _self = this
+                let _self = this // !保存this
                 uni.chooseImage({
                     count:1,
                     success(res) {
+                        // 此处的this指向并非组件实例
                         _self.newAvatar = res.tempFilePaths[0]
                     }
                 })

@@ -4,7 +4,7 @@
 
 项目主要的核心功能为新闻浏览、试卷答题以及好友聊天。使用了爬虫对腾讯新闻进行了爬取作为新闻数据源；好友聊天功能是基于websocket的二次封装。
 
-后端项目地址：
+后端项目地址：[https://github.com/ebai98/AndroidHomeworkApi](https://github.com/ebai98/AndroidHomeworkApi)
 
 websocket项目地址：[https://github.com/Swaggerzhan/MyWebsocket](https://github.com/Swaggerzhan/MyWebsocket)
 
@@ -93,10 +93,10 @@ git clone https://github.com/Refrain37/sudo_android_app.git
 ## 项目截图
 <div style="display:flex;flex-direction:row;flex-warp:warp;">
     <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/login.jpg" width="270"  />
-    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg" width="270" style="margin-left:20px;"  />
-    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg" width="270" style="margin-left:20px;"  />
-    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg" width="270" style="margin-top:20px;"  />
-    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg" width="270" style="margin-top:20px; margin-left:20px;" />
+    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/me.jpg" width="270"  />
+    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/chat.jpg" width="270"  />
+    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/articles.jpg" width="270"  />
+    <img src="https://github.com/Refrain37/sudo_android_app/blob/master/screenshots/question.jpg" width="270"  />
 </div>
 
 ## 总结

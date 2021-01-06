@@ -76,7 +76,7 @@
         onLoad(e) {
             let type = e.type
             this.type = type
-            this.setNavigatorTitle()
+            this.setNavigatorTitle(type)
             this.getList()
         }
 	}

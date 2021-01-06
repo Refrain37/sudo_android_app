@@ -1,0 +1,40 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: __UNI__4DE3505_cm.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/libso.so
+- assets/data/dcloud_url.json
+- assets/data/wap2app/__shortcut.js
+- assets/data/wap2app/__wap2app.js
+- assets/data/wap2app/__wap2appbrowser.html
+- assets/data/wap2app/__wap2appcontext.html
+- assets/data/wap2app/__wap2apperror.html
+- assets/data/wap2app/__wap2appplayer.js
+- assets/data/wap2app/__wap2appswiper.html
+- png
+- ogg
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '0'
+  dc/squareup/okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  io/dcloud/all.js: '8'
+  io/dcloud/uni-app-service.js: '8'
+  io/dcloud/weexUniJs.js: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '100'
+  versionName: 1.0.0

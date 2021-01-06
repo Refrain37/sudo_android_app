@@ -152,6 +152,7 @@
                   console.log(data)
                   switch (data.type){
                       case CONNECT_FAILED_CODE:
+                          this.hasLogin = false
                           showError()
                           break;
                       case CONNECT_SUCCEED_CODE:
@@ -214,7 +215,9 @@
             this.scrollInit()
         },
         updated(){
-            this.scrollToBottom()
+            if(this.chattingRecord.length > 7) {
+                this.scrollToBottom()
+            }
         }
 	}
 </script>
